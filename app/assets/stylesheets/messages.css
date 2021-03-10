@@ -1,0 +1,43 @@
+.wrapper{
+  display: flex;
+}
+
+.side-bar{
+  width: 300px;
+  height: 100vh;
+  background-color: #253141;
+}
+
+.side-top{
+  height: 100px;
+  padding: 0 20px;
+}
+
+.side-bot{
+  height: calc(100vh - 100px);
+  background-color: #2f3e51;
+  padding: 0 20px;
+}
+
+.main-bar{
+  width: calc(100vw - 300px);
+  background-color: #fff;
+}
+
+.main-top{
+  height: 100px;
+  padding: 0 40px;
+}
+
+.main-mid{
+  height: calc(100vh - 100px - 90px);
+  background-color: #fafafa;
+  padding: 46px 40px 0;
+}
+
+.main-bot{
+  height: 90px;
+  background-color: #ddd;
+  padding: 20px 40px ; 
+}
+
